@@ -13,7 +13,7 @@ library(shiny)
 ui <- fluidPage(
    
    # Application title
-   titlePanel("Old Faithful Geyser Data"),
+   titlePanel("That is a new Shiny app"),
    
    # Sidebar with a slider input for number of bins 
    sidebarLayout(
@@ -22,7 +22,7 @@ ui <- fluidPage(
                      "Number of bins:",
                      min = 1,
                      max = 50,
-                     value = 30)
+                     value = 30 )
       ),
       
       # Show a plot of the generated distribution
